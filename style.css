@@ -1,0 +1,430 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: orange;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav h1 {
+    margin-left: 40px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.nav h1:hover {
+    color: red;
+}
+
+.nav a {
+    margin-right: 40px;
+}
+
+.nav a .fa {
+    font-size: 28px;
+    color: white;
+}
+
+.offer {
+    text-align: center;
+    background-color: rgb(175, 113, 232);
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.offer .fa {
+    color: gold;
+}
+
+.nav li {
+    list-style: none;
+}
+
+.product {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.content {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content p {
+    text-align: center;
+    margin-top: 3px;
+}
+
+.col-1 {
+    width: 30%;
+    height: 80vh;
+}
+
+.img1 img {
+    margin-top: 18px;
+    width: 100%;
+    height: 360px;
+    transition: 0.5s;
+    padding: 18px;
+}
+
+.img1 img:hover {
+    transform: scale(1.05);
+}
+
+.img2 img {
+    margin-top: 18px;
+    width: 100%;
+    height: 360px;
+    transition: 0.5s;
+    padding: 18px;
+}
+
+.img2 img:hover {
+    transform: scale(1.05);
+}
+
+.img3 img {
+    margin-top: 18px;
+    width: 100%;
+    height: 360px;
+    transition: 0.5s;
+    padding: 18px;
+}
+
+.img3 img:hover {
+    transform: scale(1.05);
+}
+
+.fa-star-o {
+    color: goldenrod;
+}
+
+.fa-star-half-full {
+    color: goldenrod;
+}
+
+.fa-star {
+    color: goldenrod;
+}
+
+.price {
+    font-size: 20px;
+    float: right;
+    margin-top: -3px;
+    margin-right: 17px;
+    background-color: orange;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.btn {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn .buy {
+    font-size: 25px;
+    cursor: pointer;
+    border: 1px solid orange;
+    padding: 15px;
+    color: orange;
+    transition: 0.6s;
+    border-radius: 30px;
+}
+
+.btn .buy:hover {
+    color: white;
+    background-color: orange;
+    border: 1px solid rgb(251, 242, 242);
+}
+
+.rating {
+    margin-left: 25px;
+    display: inline;
+}
+
+.main-footer {
+    margin-top: 45px;
+    width: 100%;
+    background-color: rgb(248, 244, 244);
+}
+
+.main-footer h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom: 2px dotted orange;
+}
+
+.social-media ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.social-media ul li {
+    margin: 20px;
+}
+
+.social-media ul li a {
+    text-decoration: none;
+    color: rgb(8, 1, 3);
+    font: bold;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.social-media ul li a:hover {
+    color: rgb(233, 74, 106);
+}
+
+.social-media .fa-facebook {
+    color: rgb(99, 99, 216);
+}
+
+.social-media .fa-linkedin {
+    color: rgb(66, 66, 236);
+}
+
+.social-media .fa-twitter {
+    color: rgb(43, 108, 164);
+}
+
+.social-media .fa-telegram {
+    color: rgb(43, 108, 164);
+}
+
+.social-media .fa-youtube {
+    color: rgb(164, 43, 43);
+}
+
+.social-media .fa-instagram {
+    color: rgb(202, 41, 116);
+}
+
+.footer h3 {
+    text-align: center;
+    color: rgb(8, 1, 3);
+    font: bold;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.main-footer p {
+    text-align: center;
+    color: rgb(8, 1, 3);
+    font: bold;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.more-view {
+    text-align: center;
+    color: rgb(8, 1, 3);
+    font: bold;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 32px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: orange;
+}
+
+.more-view li a {
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    border: 1px solid orange;
+    color: orange;
+    border-radius: 50px;
+}
+
+
+/* .more-view li a:hover {
+    color: white;
+} */
+
+.more-view li {
+    list-style: none;
+    padding: 13px;
+    transition: 0.6s;
+}
+
+.more-view li a:hover {
+    color: white;
+    background-color: rgb(247, 163, 6);
+}
+
+.more-view .fa {
+    margin-left: 18px;
+}
+
+.reveiw {
+    margin-left: 25%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 50%;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.reveiw .heading {
+    color: rgb(8, 1, 3);
+    font: bold;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 38px;
+}
+
+.reveiw p {
+    color: rgb(8, 1, 3);
+    font: bold;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: small;
+}
+
+.form input {
+    margin-left: 25%;
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+    height: 50px;
+    width: 50%;
+}
+
+.form .discription {
+    height: 70px;
+}
+
+.form button {
+    margin-top: 28px;
+    font-size: 30px;
+    padding: 18px;
+    width: 400px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    border: 1px solid orange;
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 30px;
+}
+
+.form button:hover {
+    color: white;
+    background: orange;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu ul li {
+    margin-left: 8px;
+    font-weight: 800;
+    font: bold;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 1s;
+}
+
+.menu ul li a:hover {
+    color: gray;
+}
+
+.ram {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 800;
+    font: bold;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-bottom: 1px solid rgb(28, 24, 24);
+}
+
+.main-review {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(248, 244, 244);
+}
+
+.main-review .col11 {
+    width: 30%;
+    /* text-align: center; */
+    margin: 4px;
+}
+
+.main-review .col11 img {
+    margin-left: 25%;
+    height: 150px;
+    border-radius: 50%;
+    transition: .5s;
+    padding: 8px;
+}
+
+.main-review .col11 img:hover {
+    transform: scale(1.07);
+}
+
+.main-review .col11 .rating .fa {
+    float: left;
+}
+
+.verified {
+    /* color: rgb(215, 226, 58); */
+    color: orange;
+    float: right;
+    font: bold;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    margin-right: 3px;
+}
+
+.last1 {
+    float: left;
+    margin-top: 25px;
+}
+
+.main-review .col11 h2 {
+    font: bold;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
